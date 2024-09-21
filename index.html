@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Other Links</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="links-container">
+    <a id="link1" href="#" target="_blank">10 GitHub Repo</a>
+    <a id="link2" href="#" target="_blank">IIT Alumni Profile</a>
+    <a id="link3" href="#" target="_blank">AI Generate Product</a>
+    <a id="link4" href="#" target="_blank">Vivekanand Thoughts</a>
+    <a id="link5" href="#" target="_blank">Deep Learning: Foundations and Concepts</a>
+    <a id="link6" href="#" target="_blank">LDA by Sebastian Raschaka</a>
+    <a id="link7" href="#" target="_blank">Landing.ai</a>
+    <a id="link8" href="#" target="_blank">Computer Vision Roadmap</a>
+    <a id="link9" href="#" target="_blank">Text to SQL</a>
+    <a id="link10" href="#" target="_blank">Gravatar</a>
+    <a id="link11" href="#" target="_blank">Vivekanand Quotes</a>
+    
+  </div>
+
+  <script src="links.js"></script>
+
+  <script>
+    // Array to store the long links
+    
+    // Assign each long URL to the corresponding anchor element
+    for (let i = 0; i < links.length; i++) {
+      document.getElementById(`link${i+1}`).href = links[i];
+    }
+  </script>
+</body>
+</html>
